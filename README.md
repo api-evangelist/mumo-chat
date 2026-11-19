@@ -1,4 +1,4 @@
-# mumo-chat
+# mumo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mumo-chat is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mumo.chat/
+mumo convenes AI models from different labs to answer, challenge, and build on each other's claims — with the disagreement kept on the record. It provides a chat interface where users can query top AI models, see multiple answers, and view where models agree or split, ensuring transparency and second opinions. The platform is free to use and aims to foster collaborative AI decision‑making.
+
+**Areas:** AI · Chatbot · Multi-Model · Collaboration · OpenAI
+
+## mumo on APIs.io
+
+Everything profiled for mumo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mumo-chat/](https://apis.io/providers/mumo-chat/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [mumo Account API](https://apis.io/apis/mumo-chat/mumo-chat-account-api/) — Models available to the caller, wallet balance, and platform defaults.
+- [mumo Deliberations API](https://apis.io/apis/mumo-chat/mumo-chat-deliberations-api/) — Create sessions and append rounds — the write surface.
+- [mumo Sessions API](https://apis.io/apis/mumo-chat/mumo-chat-sessions-api/) — Read session state, rounds, progress, and public share links.
+- [mumo System API](https://apis.io/apis/mumo-chat/mumo-chat-system-api/) — Unauthenticated service health.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [mumo Agentic Access](https://apis.io/agentic-access/mumo-chat/mumo-chat-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Ack](https://apis.io/schemas/mumo-chat/mumo-chat-ack/)
+- [CreateDeliberationRequest](https://apis.io/schemas/mumo-chat/mumo-chat-create-deliberation-request/)
+- [CreditWallet](https://apis.io/schemas/mumo-chat/mumo-chat-credit-wallet/)
+- [Model](https://apis.io/schemas/mumo-chat/mumo-chat-model/)
+- [ReplayAck](https://apis.io/schemas/mumo-chat/mumo-chat-replay-ack/)
+- [Session](https://apis.io/schemas/mumo-chat/mumo-chat-session/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mumo Chat Context](https://apis.io/jsonld/mumo-chat/mumo-chat-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [mumo API Rules](https://apis.io/rules/mumo-chat/mumo-chat-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [mumo Authentication](https://apis.io/security/mumo-chat/mumo-chat-authentication/)
+- [mumo Domain Security](https://apis.io/security/mumo-chat/mumo-chat-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [mumo Plans Pricing](https://apis.io/plans/mumo-chat/mumo-chat-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mumo.chat/)
+- [Documentation](https://mumo.chat/docs/mcp)
+- [API reference](https://mumo.chat/docs/api)
+- [Pricing](https://mumo.chat/pricing)
+- [Terms of service](https://mumo.chat/legal/terms)
+- [Privacy policy](https://mumo.chat/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.1** — developing · rubric 0.27.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 62.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 63.7 |
+
+**Agent readiness 40.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mumo-chat/](https://apis.io/providers/mumo-chat/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for mumo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mumo-chat/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
